@@ -9,7 +9,7 @@ module.exports = merge(common, {
     "axios",
     "qs",
     "flv.js",
-    "element-ui",
+    "element-plus",
     "uuid",
     "echarts",
     "echarts-liquidfill",
