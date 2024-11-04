@@ -1,6 +1,6 @@
 <template>
   <el-image
-    class="wz-image"
+    class="hey-image"
     :src="src"
     :fit="fit"
     :lazy="lazy"
@@ -9,12 +9,11 @@
 </template>
 <script>
 export default {
-  name: "wz-image",
+  name: "hey-image",
   watch: {
     id(newVal) {
       if (!newVal) {
         this.imgUrl = "";
-        this.uuid = v4();
       } 
     }
   },
